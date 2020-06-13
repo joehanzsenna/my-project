@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table content</title>
+    <style>
+        body{
+            background: green;
+            color: white;
+            font-family: sans-serif;
+        }
+        .navigation ul{
+            list-style-type: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+        .navigation ul,li{
+            display: inline-block;
+            
+        }
+        .navigation a{
+            text-decoration: none;
+            color: white;
+            border: 3px solid yellow;
+            background: blue;
+            padding: 5px 10px;
+            border-radius: 10px;
+        } 
+        .navigation a:hover{
+            background: green;
+            color: white;
+        }
+        .table2{
+            
+        }
+        .table2,td,th{
+            border: 2px solid black;
+            border-collapse:collapse;
+            padding: 3px;
+            text-align: center;
+            
+        }
+        th{
+            max-width: 5em;
+        }
+        .table2 caption{
+            font-size:2em;
+            border: 1px solid blue;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="main.html" target="_self">Main</a></li>
+                <li><a href="home.html" target="_blank"> Home </a></li>
+                <li><a href="about.html" target="_blank"> About </a></li>
+                <li><a href="contacts.html" target="_blank"> Contacts </a></li>
+                <li><a href="table.html" target="_blank"> table </a></li>
+    
+            </ul>
+    </header>
+    </nav>
+    <main>
+        <div >
+            <table class="table2" >
+                <p>Study Time vs. Grades</p>
+                <caption>this is a caption</caption>
+                <tr>
+                    <th>Student</th>
+                    <th>Study Time (hours)</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>2</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>4</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>Cindy</td>
+                    <td>5</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Florence</td>
+                    <td>3</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>Kim</td>
+                    <td>4</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Lori</td>
+                    <td>4</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td>Marisa</td>
+                    <td>1</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>Pat</td>
+                    <td>2</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>Thomas</td>
+                    <td>5</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>Wendy</td>
+                    <td>2.5</td>
+                    <td>87</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    
+</body>
+</html>

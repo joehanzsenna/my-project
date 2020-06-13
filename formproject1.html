@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log in page</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+            }
+            
+            .image{
+                background: url(../beach.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 43rem;
+                width: 50%;
+                float: left;
+
+            }
+            .container h1,p,#mylo,.log{
+                text-align: center;
+            }
+            .container{
+                width: 25%;
+                padding: 0;
+                float: right;
+                margin: 4rem 10rem 0rem;
+                float: left;
+            }
+            .container h1{
+            margin: 0rem 0 2rem;
+            font-size: 2.5rem;
+            }
+            .container p{
+                margin: 3rem 0 1.5rem;
+            }
+            .container input{
+                margin: .5rem 0;
+                padding: .8rem .5rem;
+                border: .1rem solid rgb(236, 233, 233);
+                border-radius: .3rem;
+                width: 90%;
+                font-size: .8rem;
+
+            }
+            #btn{
+                margin: 2rem 0 1rem;
+                padding: .8rem .5rem;
+                border: .1rem solid gray;
+                border-radius: .3rem;
+                color: white;
+                background: blue;
+                width: 95%;
+                font-size: .8rem;
+            }
+            #forgotpassword{
+                font-size: .7rem;
+                margin: 0;
+                float: left;
+                padding-left: .5rem;
+            }
+            #account{
+                font-size: .7rem;
+                margin: 0 0 5rem;
+                padding-left:10rem;
+            }
+            a{
+                text-decoration: none;
+            }
+            #mylo{
+                font-size: .8rem;
+                margin-top: 10rem;
+               
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="image"></div>
+            <div class="container">
+                <h1>GOOD HOUSEKEEPING</h1>
+                <p>sign in</p>
+                <div class="log">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <br>
+                    <label for="forgotpassword" id="forgotpassword"><a href="#_blank">Forgot password?</a></label>
+                    <br>
+                    <button value="submit" id="btn"><a href="main.html" target="_self" style="color: white;">sign in</a></button>
+                    <br>
+                    <label for="account" id="account">Don't have an account? <a href="#_blank">Sign up</a></label>
+                </div>
+                <div id="mylo">Powered by Mylo</div>
+            </div>
+        </header>
+
+    </body>
+</html>

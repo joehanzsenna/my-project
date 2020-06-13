@@ -1,0 +1,73 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.subtitle h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+    
+}
+.subtitle h3{
+    padding: 0 3.5em;
+    width: auto;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.subtitle span{
+    font-size: 0.8em;
+}
+.img1{
+    background:url(../ab7.jpg);
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    margin: 0;
+}
+.session1 ul{
+    margin-top: 30px;
+    line-height: 23px;
+    padding: 10px 25px;
+}
+.session1 p{
+    padding: 10px 20px;
+}
+.btn1{
+    background-color: blue;
+    padding: 20px;
+    width: auto;
+    margin: 0 20px;
+    color: white;
+}
+.micro p{
+    font-style: italic;
+
+}
+.micro p::first-letter{
+    font-style: italic;
+    color: blue;
+    font-size: 2em;
+    
+}
+.micro h2{
+    text-align: center;
+    font-size: 18px;
+    font-size: medium;
+}
+.micro h3{
+    padding-left: 10px;
+    font-size: 13px;
+    max-width: 60%;
+}
+.micro span{
+    color: white;
+    background: gray;
+    padding: 10px 25px;
+}

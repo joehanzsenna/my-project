@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>April 13</title>
+        <style>
+            body{
+                background:url(../beach.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 50rem;
+                background-color: lightseagreen;
+                position: relative;
+            }
+            .formal{
+                position:relative;
+                top:0;
+                background-color:green;
+                width: 100%;
+            }
+            .figg{
+                text-align: center;
+                position: absolute;
+                clear: both;
+            }
+            .adds1{
+                width: 20rem;
+                height: 10rem;
+                float: right;
+                margin-right: 2rem;
+                
+                position: relative;
+            }
+            .adds{
+                padding: .5rem;
+                width: auto;
+                margin-top: 1rem;
+                border-radius: .5rem;
+                background: linear-gradient(to right,seagreen,skyblue,lightblue);
+            }
+            .contain{
+                background: rgba(0, 0, 0, 0.801);
+                border: .5rem solid teal;
+                border-radius: .8rem;
+                height: 10rem;
+                display: flex;
+                justify-content: center;
+                flex-direction:row;
+                align-items: baseline;
+                align-items: center;
+
+                
+                
+            }
+            .contain .contain-item{
+               background: teal;
+               color: white;
+               width: 5rem;
+               line-height: 3rem;
+               margin: .8rem;
+               text-align: center;
+               border-radius: .3rem;
+            }
+            .contain .contain-item:hover{
+                background: yellow;
+                color: teal;
+            }
+        </style>
+    </head>
+    <body bgcolor=black style="color:white">
+        <div>
+            <h1>Lets Do This</h1>
+        </div>
+        <div align="center" style="background-color: aqua;" width:auto>
+            <form action="action_post.php" method="get">
+                <div>
+                    <label for="userlogin">User Login</label>
+                </div>
+                <br>
+               <div>
+                    <input type="text" name="username" placeholder="Username" minlength="4" maxlength="7" required>
+               </div>
+                <br>
+                <div>
+                    <input type="password" name="Password" placeholder="Password" min="4" maxlength="7" required>
+                </div>
+                <br>
+                <div>
+                    <label for="remindme">Remind Me</label>
+                </div>
+                <br>
+                <button value="submit">Send</button>
+            </form>
+        </div>
+        <div class="formaliz">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis quo voluptatum. Ipsum ut natus facilis. Nostrum porro, perferendis pariatur adipisci ex et deleniti iste ratione suscipit magni quo repellat.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat autem tenetur pariatur consequatur voluptates labore consectetur. Natus possimus nemo, quos, maiores tempore corrupti, optio laboriosam enim eos non neque?
+                <blockquote> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni amet doloribus dolorum quae quod atque placeat soluta cum aliquam molestias, voluptate, fuga pariatur eius repellendus? Illum at ex eveniet molestias!</blockquote>
+               <center> <button type="submit">next</button></center>
+                <cite>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti quisquam expedita omnis eos, hic odio et quis, ipsa pariatur quibusdam quasi ducimus reprehenderit a, tenetur cumque consectetur corrupti modi.  </cite>
+            </p>
+            
+        </div>
+        <div>
+            <fieldset>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, facere. Consequuntur eaque ab libero delectus sequi! Facere debitis quod officiis necessitatibus iure delectus eius ut architecto dignissimos consectetur, sapiente omnis?</fieldset>
+        </div>
+        <div>
+            <p>
+                
+                <mark>you know what time it is ?</mark>
+            </p>
+        </div>
+        <div class="formal">
+            <form action="action_post.php" method="GET" >
+                <fieldset>
+                    <legend>new best top</legend>
+                    <label for="fullname">Fullname</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Fullname" required>
+                    <br> <br>
+                    <label for="password"> Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <br> <br>
+                    <button type="reset" value="reset">Reset</button>
+                    <button value="submit">sign in</button>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <p>
+                Andrews,<small>page 2</small>
+            </p>
+        </div>
+        <figure class="figg">
+            <figcaption>when sittin at the beach you enjoy the feel of nature</figcaption>
+            <img src="../beach.jpg" alt="baech_img" width="50%">
+            
+        </figure>
+
+        <div class="adds1">
+            <aside class="adds">
+                <h1>buy dog kits</h1>
+                <p>heres a tip on how to get some products that's going to be really good for your dog and keep them heakthy always</p>
+            </aside>
+            <aside class="adds">
+                <h1>buy dog kits</h1>
+                <p>heres a tip on how to get some products that's going to be really good for your dog and keep them heakthy always</p>
+            </aside>
+            <aside class="adds">
+                <h1>buy dog kits</h1>
+                <p>heres a tip on how to get some products that's going to be really good for your dog and keep them heakthy always</p>
+            </aside>
+        </div>
+        <div style="margin-top: 100em;"></div>
+        <div class="contain">
+            <div class="contain-item" style="order: 4;
+            flex: 1 3 10rem;
+            align-self: end;
+            ">1</div>
+            <div class="contain-item" style="order: 5;
+            flex: 1 5 10rem;
+            align-self: center;
+            ">2</div>
+            <div class="contain-item" style="order: 6;
+            flex: 1 3 10rem;
+            align-self: start;
+            ">3</div>
+            <div class="contain-item" style="order: 1;
+            flex: 1 3 10rem;
+            align-self: start;
+            ">4</div>
+            <div class="contain-item" style="order: 3;
+            flex: 1 3 10rem;
+            align-self: end;
+            ">5</div>
+            <div class="contain-item" style="order: 2;
+            flex: 1 3 10rem;
+            align-self:center;
+            ">6</div>
+        </div>
+        <div style="margin-top: 100em;"></div>
+    </body>
+</html>

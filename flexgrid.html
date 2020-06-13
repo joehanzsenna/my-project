@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flex and grid</title>
+        <style>
+            body{
+                background: black;
+                color: white;
+                font-weight: bolder;
+            }
+            .grid-container{
+               width: 80%;
+               height: auto;
+               background: linear-gradient(to right,teal,seagreen,white);
+               display: grid;
+               
+
+
+                
+            }
+            .grid-items{
+                text-align: center;
+                margin: 1rem;
+                padding: .3rem;
+                width: 3rem;
+                font-size: 3rem;
+                
+            }
+            .flex-container{
+                background: none;
+                width:50%;
+                align: center;
+                height: auto;
+                margin: 2rem;
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                
+            }
+            .flex-items{
+                margin: .5em;
+               
+                text-align: center;
+                font-size: 2rem;
+                color: white;
+                padding: .5rem;
+
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-items" style="background: blue;
+            
+            ">1</div>
+            <div class="grid-items" style="background: yellow;
+            
+            ">2</div>
+            <div class="grid-items" style="background: red;
+            ">3</div>
+            <div class="grid-items" style="background: green;
+            ">4</div>
+            <div class="grid-items" style="background: orange;
+            ">5</div>
+            <div class="grid-items" style="background: purple;
+            ">6</div>
+            <div class="grid-items" style="background: purple;
+            ">7</div>
+            <div class="grid-items" style="background: purple;
+            ">8</div>
+            <div class="grid-items" style="background: purple;
+            ">9</div>
+            <div class="grid-items" style="background: purple;
+            ">10</div>
+            <div class="grid-items" style="background: purple;
+            ">11</div>
+            <div class="grid-items" style="background: purple;
+            ">12</div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-items" style="order:1;
+             align-self:1 0 100rem;
+            ">
+                <figure>
+                <figcaption class="cap">Abstract images look really cool,you have to look deep to see the beauty in an abstact image</figcaption>
+                <img src="../ab8.jpg" alt="pic" width="400rem">
+            </figure> 
+        </div>
+            <div class="flex-items" style="order: 3; 
+            align-self:1 4 100rem;
+            ">
+                <figure>
+                    <figcaption class="cap">Abstract images look really cool,you have to look deep to see the beauty in an abstact image</figcaption>
+                    <img src="../pic3.jpg" alt="pic" width="400rem">
+                </figure>
+            </div>
+            <div class="flex-items" style=" order:2 ;
+            align-self:1 4 100rem;
+            ">
+                <figure>
+                <figcaption class="cap">Abstract images look really cool,you have to look deep to see the beauty in an abstact image</figcaption>
+                <img src="../ab9.jpg" alt="pic" width="400rem">
+            </figure> 
+            </div>
+            <div class="flex-items" style="order:4 ; 
+            align-self:1 4 100rem;
+            ">
+                <figure>
+                    <figcaption class="cap">Abstract images look really cool,you have to look deep to see the beauty in an abstact image</figcaption>
+                    <img src="../beach.jpg" alt="pic" width="400rem">
+                </figure> 
+            </div>
+            <div class="flex-items" style="order: 6;
+             align-self:1 4 100rem;
+            ">
+                <figure>
+                <figcaption class="cap">Abstract images look really cool,you have to look deep to see the beauty in an abstact image</figcaption>
+                <img src="../pic1.jpg" alt="pic" width="400rem">
+            </figure>
+            </div>
+            <div class="flex-items" style=" order: 5;
+            align-self:2 5 100rem;
+            ">
+                <figure>
+                    <figcaption class="cap">Abstract images look really cool,you have to look deep to see the beauty in an abstact image</figcaption>
+                    <img src="../pic2.jpg" title="its a picture at the beach" alt="pic" width="400rem">
+                </figure>
+            </div>
+        </div>
+        
+
+    </body>
+
+</html>
